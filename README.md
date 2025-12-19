@@ -19,7 +19,7 @@ No system-wide installation is required.
 ```bash
 cd <category_folder>
 make
-./build/bin
+./build/base.bin
 ```
 
 Replace <category_folder> with the folder name (e.g., 01_triangle).
