@@ -53,3 +53,32 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Build output
+build/
+*.o
+*.obj
+*.bin
+
+# Backup and temporary files
+*~
+*.swp
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled third-party libraries (if any)
+*.a
+*.so
+*.dll
+*.dylib
+
+# IDE/project files
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
