@@ -3,8 +3,10 @@ Templates for coding OpenGL speedruns in C
 
 ## Repository Setup
 ### Clone the Repository
+```bash
 git clone https://github.com/Nzrsc/c-opengl-speedrun-templates.git
 cd c-opengl-speedrun-templates
+```
 
 ### Third-Party Dependencies
 The repository includes all necessary third-party libraries:
@@ -14,9 +16,11 @@ No system-wide installation is required.
 
 # Build Instructions
 ## Build a Category
+```bash
 cd <category_folder>
 make
 ./build/bin
+```
 
 Replace <category_folder> with the folder name (e.g., 01_triangle).
 Each category has its own Makefile but shares third_party/ at the root.
